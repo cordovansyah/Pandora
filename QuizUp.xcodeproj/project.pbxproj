@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047DFCFE207DD81F000DBA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DFCFD207DD81F000DBA29 /* AppDelegate.swift */; };
+		047DFD00207DD81F000DBA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DFCFF207DD81F000DBA29 /* ViewController.swift */; };
+		047DFD03207DD81F000DBA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047DFD01207DD81F000DBA29 /* Main.storyboard */; };
+		047DFD05207DD823000DBA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047DFD04207DD823000DBA29 /* Assets.xcassets */; };
+		047DFD14207DE224000DBA29 /* Stellar in Resources */ = {isa = PBXBuildFile; fileRef = 047DFD13207DE224000DBA29 /* Stellar */; };
+		047DFD19207DE737000DBA29 /* Stellar-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 047DFD15207DE737000DBA29 /* Stellar-Medium.otf */; };
+		047DFD1A207DE737000DBA29 /* Stellar-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 047DFD16207DE737000DBA29 /* Stellar-Regular.otf */; };
+		047DFD1B207DE737000DBA29 /* Stellar-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 047DFD17207DE737000DBA29 /* Stellar-light.otf */; };
+		047DFD1C207DE737000DBA29 /* Stellar-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 047DFD18207DE737000DBA29 /* Stellar-Bold.otf */; };
+		047DFD1E207DF505000DBA29 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DFD1D207DF505000DBA29 /* Question.swift */; };
+		047DFD20207DF576000DBA29 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DFD1F207DF576000DBA29 /* QuestionBank.swift */; };
+		04C44498207E71DA0017CD78 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4448E207E71D70017CD78 /* SVIndefiniteAnimatedView.m */; };
+		04C44499207E71DA0017CD78 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04C4448F207E71D70017CD78 /* SVProgressHUD.bundle */; };
+		04C4449A207E71DA0017CD78 /* SVProgressHUD in Resources */ = {isa = PBXBuildFile; fileRef = 04C44493207E71D80017CD78 /* SVProgressHUD */; };
+		04C4449B207E71DA0017CD78 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C44494207E71D80017CD78 /* SVProgressHUD.m */; };
+		04C4449C207E71DA0017CD78 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C44495207E71D80017CD78 /* SVRadialGradientLayer.m */; };
+		04C4449D207E71DA0017CD78 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C44496207E71D90017CD78 /* SVProgressAnimatedView.m */; };
+		04C444A2207E74CA0017CD78 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444A1207E74CA0017CD78 /* MBProgressHUD.m */; };
+		04C444BC207E79940017CD78 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444A4207E79900017CD78 /* JGProgressHUDIndeterminateIndicatorView.m */; };
+		04C444BD207E79940017CD78 /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444A5207E79900017CD78 /* JGProgressHUDErrorIndicatorView.m */; };
+		04C444BE207E79940017CD78 /* JGProgressHUDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444A9207E79900017CD78 /* JGProgressHUDShadow.m */; };
+		04C444BF207E79940017CD78 /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444AA207E79900017CD78 /* JGProgressHUDRingIndicatorView.m */; };
+		04C444C0207E79940017CD78 /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444AC207E79910017CD78 /* JGProgressHUDSuccessIndicatorView.m */; };
+		04C444C1207E79940017CD78 /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444AD207E79910017CD78 /* JGProgressHUDPieIndicatorView.m */; };
+		04C444C2207E79940017CD78 /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444AE207E79910017CD78 /* JGProgressHUD.m */; };
+		04C444C3207E79940017CD78 /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444B4207E79920017CD78 /* JGProgressHUDFadeAnimation.m */; };
+		04C444C4207E79940017CD78 /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444B6207E79920017CD78 /* JGProgressHUDIndicatorView.m */; };
+		04C444C5207E79940017CD78 /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444B7207E79930017CD78 /* JGProgressHUDAnimation.m */; };
+		04C444C6207E79940017CD78 /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444B8207E79930017CD78 /* JGProgressHUDFadeZoomAnimation.m */; };
+		04C444C7207E79940017CD78 /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C444BB207E79930017CD78 /* JGProgressHUDImageIndicatorView.m */; };
+		04C444D0207EBA6D0017CD78 /* song.flac in Resources */ = {isa = PBXBuildFile; fileRef = 04C444CF207EBA6C0017CD78 /* song.flac */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		047DFD3A207E6642000DBA29 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		047DFCFA207DD81F000DBA29 /* QuizUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047DFCFD207DD81F000DBA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047DFCFF207DD81F000DBA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047DFD02207DD81F000DBA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047DFD04207DD823000DBA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047DFD09207DD823000DBA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047DFD13207DE224000DBA29 /* Stellar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Stellar; sourceTree = "<group>"; };
+		047DFD15207DE737000DBA29 /* Stellar-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stellar-Medium.otf"; sourceTree = "<group>"; };
+		047DFD16207DE737000DBA29 /* Stellar-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stellar-Regular.otf"; sourceTree = "<group>"; };
+		047DFD17207DE737000DBA29 /* Stellar-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stellar-light.otf"; sourceTree = "<group>"; };
+		047DFD18207DE737000DBA29 /* Stellar-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stellar-Bold.otf"; sourceTree = "<group>"; };
+		047DFD1D207DF505000DBA29 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		047DFD1F207DF576000DBA29 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		04C4448D207E71D70017CD78 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		04C4448E207E71D70017CD78 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		04C4448F207E71D70017CD78 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		04C44490207E71D70017CD78 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		04C44491207E71D80017CD78 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		04C44492207E71D80017CD78 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		04C44493207E71D80017CD78 /* SVProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SVProgressHUD; sourceTree = "<group>"; };
+		04C44494207E71D80017CD78 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		04C44495207E71D80017CD78 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		04C44496207E71D90017CD78 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		04C44497207E71DA0017CD78 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		04C4449E207E71F30017CD78 /* QuizUp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuizUp-Bridging-Header.h"; sourceTree = "<group>"; };
+		04C4449F207E74CA0017CD78 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		04C444A0207E74CA0017CD78 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		04C444A1207E74CA0017CD78 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		04C444A3207E79900017CD78 /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		04C444A4207E79900017CD78 /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		04C444A5207E79900017CD78 /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
+		04C444A6207E79900017CD78 /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		04C444A7207E79900017CD78 /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		04C444A8207E79900017CD78 /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		04C444A9207E79900017CD78 /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDShadow.m; sourceTree = "<group>"; };
+		04C444AA207E79900017CD78 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
+		04C444AB207E79910017CD78 /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		04C444AC207E79910017CD78 /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
+		04C444AD207E79910017CD78 /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		04C444AE207E79910017CD78 /* JGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUD.m; sourceTree = "<group>"; };
+		04C444AF207E79910017CD78 /* JGProgressHUDShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDShadow.h; sourceTree = "<group>"; };
+		04C444B0207E79910017CD78 /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
+		04C444B1207E79910017CD78 /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		04C444B2207E79910017CD78 /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		04C444B3207E79920017CD78 /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		04C444B4207E79920017CD78 /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		04C444B5207E79920017CD78 /* JGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUD.h; sourceTree = "<group>"; };
+		04C444B6207E79920017CD78 /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		04C444B7207E79930017CD78 /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		04C444B8207E79930017CD78 /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		04C444B9207E79930017CD78 /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		04C444BA207E79930017CD78 /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		04C444BB207E79930017CD78 /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		04C444CF207EBA6C0017CD78 /* song.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = song.flac; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047DFCF7207DD81F000DBA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047DFCF1207DD81F000DBA29 = {
+			isa = PBXGroup;
+			children = (
+				047DFD18207DE737000DBA29 /* Stellar-Bold.otf */,
+				047DFD17207DE737000DBA29 /* Stellar-light.otf */,
+				047DFD15207DE737000DBA29 /* Stellar-Medium.otf */,
+				047DFD16207DE737000DBA29 /* Stellar-Regular.otf */,
+				047DFCFC207DD81F000DBA29 /* QuizUp */,
+				047DFCFB207DD81F000DBA29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047DFCFB207DD81F000DBA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047DFCFA207DD81F000DBA29 /* QuizUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047DFCFC207DD81F000DBA29 /* QuizUp */ = {
+			isa = PBXGroup;
+			children = (
+				047DFD24207E3F38000DBA29 /* Arcs */,
+				047DFD13207DE224000DBA29 /* Stellar */,
+				047DFD11207DD836000DBA29 /* Controller */,
+				047DFD0F207DD82D000DBA29 /* Model */,
+				047DFD12207DD858000DBA29 /* Supporting Files */,
+				047DFD09207DD823000DBA29 /* Info.plist */,
+				04C444CF207EBA6C0017CD78 /* song.flac */,
+			);
+			path = QuizUp;
+			sourceTree = "<group>";
+		};
+		047DFD0F207DD82D000DBA29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047DFD1D207DF505000DBA29 /* Question.swift */,
+				047DFD1F207DF576000DBA29 /* QuestionBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047DFD10207DD832000DBA29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				047DFD01207DD81F000DBA29 /* Main.storyboard */,
+				047DFD04207DD823000DBA29 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047DFD11207DD836000DBA29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047DFCFD207DD81F000DBA29 /* AppDelegate.swift */,
+				047DFCFF207DD81F000DBA29 /* ViewController.swift */,
+				047DFD10207DD832000DBA29 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047DFD12207DD858000DBA29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C444B3207E79920017CD78 /* JGProgressHUD-Defines.h */,
+				04C444B5207E79920017CD78 /* JGProgressHUD.h */,
+				04C444AE207E79910017CD78 /* JGProgressHUD.m */,
+				04C444AB207E79910017CD78 /* JGProgressHUDAnimation.h */,
+				04C444B7207E79930017CD78 /* JGProgressHUDAnimation.m */,
+				04C444A3207E79900017CD78 /* JGProgressHUDErrorIndicatorView.h */,
+				04C444A5207E79900017CD78 /* JGProgressHUDErrorIndicatorView.m */,
+				04C444BA207E79930017CD78 /* JGProgressHUDFadeAnimation.h */,
+				04C444B4207E79920017CD78 /* JGProgressHUDFadeAnimation.m */,
+				04C444A7207E79900017CD78 /* JGProgressHUDFadeZoomAnimation.h */,
+				04C444B8207E79930017CD78 /* JGProgressHUDFadeZoomAnimation.m */,
+				04C444A8207E79900017CD78 /* JGProgressHUDImageIndicatorView.h */,
+				04C444BB207E79930017CD78 /* JGProgressHUDImageIndicatorView.m */,
+				04C444B2207E79910017CD78 /* JGProgressHUDIndeterminateIndicatorView.h */,
+				04C444A4207E79900017CD78 /* JGProgressHUDIndeterminateIndicatorView.m */,
+				04C444A6207E79900017CD78 /* JGProgressHUDIndicatorView.h */,
+				04C444B6207E79920017CD78 /* JGProgressHUDIndicatorView.m */,
+				04C444B1207E79910017CD78 /* JGProgressHUDPieIndicatorView.h */,
+				04C444AD207E79910017CD78 /* JGProgressHUDPieIndicatorView.m */,
+				04C444B0207E79910017CD78 /* JGProgressHUDRingIndicatorView.h */,
+				04C444AA207E79900017CD78 /* JGProgressHUDRingIndicatorView.m */,
+				04C444AF207E79910017CD78 /* JGProgressHUDShadow.h */,
+				04C444A9207E79900017CD78 /* JGProgressHUDShadow.m */,
+				04C444B9207E79930017CD78 /* JGProgressHUDSuccessIndicatorView.h */,
+				04C444AC207E79910017CD78 /* JGProgressHUDSuccessIndicatorView.m */,
+				04C444A0207E74CA0017CD78 /* MBProgressHUD-Prefix.pch */,
+				04C4449F207E74CA0017CD78 /* MBProgressHUD.h */,
+				04C444A1207E74CA0017CD78 /* MBProgressHUD.m */,
+				04C44491207E71D80017CD78 /* SVIndefiniteAnimatedView.h */,
+				04C4448E207E71D70017CD78 /* SVIndefiniteAnimatedView.m */,
+				04C4448D207E71D70017CD78 /* SVProgressAnimatedView.h */,
+				04C44496207E71D90017CD78 /* SVProgressAnimatedView.m */,
+				04C44493207E71D80017CD78 /* SVProgressHUD */,
+				04C44497207E71DA0017CD78 /* SVProgressHUD-Prefix.pch */,
+				04C4448F207E71D70017CD78 /* SVProgressHUD.bundle */,
+				04C44492207E71D80017CD78 /* SVProgressHUD.h */,
+				04C44494207E71D80017CD78 /* SVProgressHUD.m */,
+				04C44490207E71D70017CD78 /* SVRadialGradientLayer.h */,
+				04C44495207E71D80017CD78 /* SVRadialGradientLayer.m */,
+				04C4449E207E71F30017CD78 /* QuizUp-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047DFD24207E3F38000DBA29 /* Arcs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Arcs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047DFCF9207DD81F000DBA29 /* QuizUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047DFD0C207DD823000DBA29 /* Build configuration list for PBXNativeTarget "QuizUp" */;
+			buildPhases = (
+				047DFCF6207DD81F000DBA29 /* Sources */,
+				047DFCF7207DD81F000DBA29 /* Frameworks */,
+				047DFCF8207DD81F000DBA29 /* Resources */,
+				047DFD3A207E6642000DBA29 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizUp;
+			productName = QuizUp;
+			productReference = 047DFCFA207DD81F000DBA29 /* QuizUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047DFCF2207DD81F000DBA29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Cordova;
+				TargetAttributes = {
+					047DFCF9207DD81F000DBA29 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 047DFCF5207DD81F000DBA29 /* Build configuration list for PBXProject "QuizUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047DFCF1207DD81F000DBA29;
+			productRefGroup = 047DFCFB207DD81F000DBA29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047DFCF9207DD81F000DBA29 /* QuizUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047DFCF8207DD81F000DBA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047DFD19207DE737000DBA29 /* Stellar-Medium.otf in Resources */,
+				047DFD1A207DE737000DBA29 /* Stellar-Regular.otf in Resources */,
+				047DFD1B207DE737000DBA29 /* Stellar-light.otf in Resources */,
+				04C4449A207E71DA0017CD78 /* SVProgressHUD in Resources */,
+				04C44499207E71DA0017CD78 /* SVProgressHUD.bundle in Resources */,
+				047DFD1C207DE737000DBA29 /* Stellar-Bold.otf in Resources */,
+				047DFD05207DD823000DBA29 /* Assets.xcassets in Resources */,
+				047DFD14207DE224000DBA29 /* Stellar in Resources */,
+				04C444D0207EBA6D0017CD78 /* song.flac in Resources */,
+				047DFD03207DD81F000DBA29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047DFCF6207DD81F000DBA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C4449C207E71DA0017CD78 /* SVRadialGradientLayer.m in Sources */,
+				04C444C5207E79940017CD78 /* JGProgressHUDAnimation.m in Sources */,
+				04C444C7207E79940017CD78 /* JGProgressHUDImageIndicatorView.m in Sources */,
+				04C444C2207E79940017CD78 /* JGProgressHUD.m in Sources */,
+				04C444C3207E79940017CD78 /* JGProgressHUDFadeAnimation.m in Sources */,
+				04C44498207E71DA0017CD78 /* SVIndefiniteAnimatedView.m in Sources */,
+				04C444C4207E79940017CD78 /* JGProgressHUDIndicatorView.m in Sources */,
+				047DFD1E207DF505000DBA29 /* Question.swift in Sources */,
+				047DFD20207DF576000DBA29 /* QuestionBank.swift in Sources */,
+				04C444A2207E74CA0017CD78 /* MBProgressHUD.m in Sources */,
+				04C444BE207E79940017CD78 /* JGProgressHUDShadow.m in Sources */,
+				04C444C0207E79940017CD78 /* JGProgressHUDSuccessIndicatorView.m in Sources */,
+				047DFD00207DD81F000DBA29 /* ViewController.swift in Sources */,
+				047DFCFE207DD81F000DBA29 /* AppDelegate.swift in Sources */,
+				04C444BD207E79940017CD78 /* JGProgressHUDErrorIndicatorView.m in Sources */,
+				04C444C1207E79940017CD78 /* JGProgressHUDPieIndicatorView.m in Sources */,
+				04C4449B207E71DA0017CD78 /* SVProgressHUD.m in Sources */,
+				04C444BC207E79940017CD78 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
+				04C4449D207E71DA0017CD78 /* SVProgressAnimatedView.m in Sources */,
+				04C444C6207E79940017CD78 /* JGProgressHUDFadeZoomAnimation.m in Sources */,
+				04C444BF207E79940017CD78 /* JGProgressHUDRingIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		047DFD01207DD81F000DBA29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047DFD02207DD81F000DBA29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047DFD0A207DD823000DBA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047DFD0B207DD823000DBA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047DFD0D207DD823000DBA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordovansyah.Pandora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuizUp/Supporting Files/QuizUp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047DFD0E207DD823000DBA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordovansyah.Pandora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuizUp/Supporting Files/QuizUp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047DFCF5207DD81F000DBA29 /* Build configuration list for PBXProject "QuizUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047DFD0A207DD823000DBA29 /* Debug */,
+				047DFD0B207DD823000DBA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047DFD0C207DD823000DBA29 /* Build configuration list for PBXNativeTarget "QuizUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047DFD0D207DD823000DBA29 /* Debug */,
+				047DFD0E207DD823000DBA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047DFCF2207DD81F000DBA29 /* Project object */;
+}
